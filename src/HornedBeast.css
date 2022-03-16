@@ -1,0 +1,12 @@
+article {
+  border: 1px solid black;
+  padding: 1vw;
+  margin-bottom: 1vw;
+  width: 24%;
+  background-color: blue;
+  overflow: auto;
+}
+
+article img{
+  width: 100%;
+}
