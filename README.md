@@ -77,6 +77,28 @@ Estimate of time needed to complete: 1.5 hours
 
 Start time: 3:26 PM
 
-Finish time: _____
+Finish time: 8:20
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hr (had a long break)
+
+
+Number and name of feature: Feature 2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 8:20pm
+
+Finish time: 9:18pm
+
+Actual time needed to complete: 1 hour
+
+
+Number and name of feature: Feature 1: display images
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 9:18pm
+
+Finish time: 10:23pm
+
+Actual time needed to complete: 1hr
