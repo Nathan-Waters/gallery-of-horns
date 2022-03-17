@@ -1,14 +1,11 @@
-import React from "react";
-import HornedBeast from "./HornedBeast.js";
+import React from 'react';
+import HornedBeast from './HornedBeast.js';
 import './Main.css';
 
 class Main extends React.Component {
   
   render() {  
-    let hBeast = [];
-    console.log(this.props);
-    this.props.data.forEach((beast, index) => {
-      hBeast.push(
+    let hBeast = this.props.data.map((beast, index) => 
         <HornedBeast
           title={beast.title}
           image_url={beast.image_url}
@@ -16,9 +13,9 @@ class Main extends React.Component {
           keyword={beast.keyword}
           horns={beast.horns}
           key={index}
+          displayB={this.props.displayB}
         />
-      )
-    });
+        );
 
     return (
       <main>

@@ -102,3 +102,15 @@ Start time: 9:18pm
 Finish time: 10:23pm
 
 Actual time needed to complete: 1hr
+
+## lab 3
+
+Number and name of feature: number 1 Display a Modal
+
+Estimate of time needed to complete: 2hr
+
+Start time: 3:09 pm
+
+Finish time: _____
+
+Actual time needed to complete: _____
