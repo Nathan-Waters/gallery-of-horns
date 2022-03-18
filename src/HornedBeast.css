@@ -18,3 +18,10 @@
   padding: none;
 }
 
+.btn {
+  margin-top: 6px;
+}
+
+.btn:hover {
+  background-color: rgb(183, 0, 255);
+}

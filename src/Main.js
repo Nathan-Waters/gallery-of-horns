@@ -5,10 +5,8 @@ import './Main.css';
 class Main extends React.Component {
   
   render() {  
-    let hBeast = [];
-    console.log(this.props);
-    this.props.data.forEach((beast, index) => {
-      hBeast.push(
+    let beasts = this.props.data.map((beast, index) => {
+      return(
         <HornedBeast
           title={beast.title}
           image_url={beast.image_url}
@@ -16,13 +14,14 @@ class Main extends React.Component {
           keyword={beast.keyword}
           horns={beast.horns}
           key={index}
+          showModal={this.props.showModal}
         />
       )
     });
 
     return (
       <main>
-        {hBeast}
+        {beasts}
       </main>
     )
   }

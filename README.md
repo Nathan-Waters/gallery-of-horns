@@ -1,3 +1,6 @@
+<!-- link to the color palette for project -->
+<!-- https://www.csscolorpalettes.com/palettes/1517#palette -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -102,3 +105,15 @@ Start time: 9:18pm
 Finish time: 10:23pm
 
 Actual time needed to complete: 1hr
+
+## lab 3
+
+Number and name of feature: figure 1: Display a Modal
+
+Estimate of time needed to complete: 2hr
+
+Start time: 7:02 pm
+
+Finish time: 9:10 pm
+
+Actual time needed to complete: 2hr
