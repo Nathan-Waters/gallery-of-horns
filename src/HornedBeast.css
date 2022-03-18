@@ -1,12 +1,20 @@
-article {
-  border: 1px solid black;
-  padding: 1vw;
-  margin-bottom: 1vw;
-  width: 24%;
-  background-color: blue;
-  overflow: auto;
+.card {
+  width: 20vw;
+  margin: 1vw;
+  border-radius: 2em;
+  padding: 20px;
+  background-color: #defcf9;
 }
 
-article img{
-  width: 100%;
+.card-img {
+  border-radius: 1em;
+  margin: auto;
+  padding: 1vw;
 }
+
+.list-group-item {
+  border: solid 3px #c3bef0;
+  border-top: #c3bef0 solid 3px;
+  padding: none;
+}
+

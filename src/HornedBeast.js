@@ -1,4 +1,6 @@
 import React from "react";
+import ListGroup from "react-bootstrap/ListGroup";
+import Card from "react-bootstrap/Card";
 import './HornedBeast.css';
 
 class HornedBeast extends React.Component {
@@ -16,12 +18,14 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
-      <article>
-        <h2>{this.props.title}</h2>
-        <img onClick={this.handleWaves} src={this.props.image_url} alt = {this.props.description}/>
-        <p>{this.state.hearts} :💖</p>
-        <p>{this.props.description}</p>
-      </article>
+      <Card>
+        <Card.Title>{this.props.title}</Card.Title>
+        <Card.Img onClick={this.handleWaves} src={this.props.image_url} alt = {this.props.description}/>
+          <ListGroup>
+            <ListGroup.Item>{this.state.hearts} :💖</ListGroup.Item>
+            <ListGroup.Item>{this.props.description}</ListGroup.Item>
+          </ListGroup>
+      </Card>
     )
   }
 }
