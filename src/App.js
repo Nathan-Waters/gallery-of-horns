@@ -2,6 +2,7 @@ import React from "react";
 import Header from './Header.js';
 import Footer from './Footer.js';
 import Main from './Main.js';
+import Form from './Form.js';
 import SelectedBeast from "./SelectedBeast.js";
 import './App.css'
 import data from './data.json';
