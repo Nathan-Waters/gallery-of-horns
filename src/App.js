@@ -3,6 +3,7 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import Main from './Main.js';
 import SelectedBeast from "./SelectedBeast.js";
+import Horns from "./Horns.js";
 import './App.css'
 import data from './data.json';
 
@@ -14,6 +15,8 @@ class App extends React.Component{
       showModal: false,
       discription: '',
       image_url: '',
+      data: data,
+      hornNum: 0,
     }
   }
   hideModal = () =>  {
@@ -29,11 +32,21 @@ class App extends React.Component{
       image_url: image_url,
     })
   }
+
+  handleHornSelection = e => {
+    this.setState({hornNum : parseInt(e.target.value)});
+  };
+
+
   render() {
     return (
       <>
         <Header/>
+        <Horns
+          handleHornSelection={this.handleHornSelection}
+        />
         <Main
+          hornNum={this.state.hornNum}
           data={data}
           showModal={this.showModal}
         />

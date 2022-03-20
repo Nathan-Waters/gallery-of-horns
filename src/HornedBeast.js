@@ -26,7 +26,7 @@ class HornedBeast extends React.Component {
         <Card.Title>{this.props.title}</Card.Title>
         <Card.Img onClick={this.handleShowModal} src={this.props.image_url} alt = {this.props.description}/>
         <ListGroup>
-          <ListGroup.Item>{this.state.hearts} :💖</ListGroup.Item>
+          <ListGroup.Item>Times Loved {this.state.hearts} :💖</ListGroup.Item>
           <ListGroup.Item>{this.props.description}</ListGroup.Item>
         </ListGroup>
         <Button onClick={this.handleWaves}>I Love These Horns!</Button>
